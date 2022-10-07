@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hovbut:hover {
+    color: rgb(79, 79, 222);
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.errro input[type="text"] {
+    border-color: red;
+    cursor: help;
+}
+
+
+.hovbut input[type="text"]:hover {
+    border-color: rgb(79, 79, 222);
+    cursor: pointer;
+
+}
+
+.hovbutt:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.hovbutt input[type="text"]:hover {
+    border-color: red;
+    cursor: pointer;
+
+}
+
+.has-call .feedback {
+    position: absolute;
+    width: 20.5em;
+    height: 2.5rem;
+    line-height: 2.8rem;
+    text-align: center;
+    pointer-events: none;
+    color: gray;
+}
+
+.has-lock .feeedback {
+    position: absolute;
+    width: 1.8em;
+    height: 2.5rem;
+    line-height: 2.8rem;
+    text-align: center;
+    pointer-events: none;
+    color: grey;
+}
+
+.floating-label-group {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.floating-label {
+    font-size: 18px;
+    color: gray;
+    position: absolute;
+    top: 11px;
+    left: 110px;
+    transition: all 0.1s ease;
+}
+
+.feeedback {
+    font-size: 18px;
+    color: gray;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    transition: all 0.1s ease;
+}
+
+input:focus~.feeedback,
+input:not(:focus):valid~.feeedback {
+    top: -35px;
+    bottom: 0px;
+    left: 170px;
+    font-size: 15px;
+    opacity: 2;
+    color: #404040;
+}
+
+
+input:focus~.floating-label,
+input:not(:focus):valid~.floating-label {
+    top: -15px;
+    bottom: 0px;
+    left: 0px;
+    font-size: 11px;
+    opacity: 1;
+    color: #404040;
+}
+
+.bigg input {
+    padding: 16px;
+}
+
+.wwid input {
+    padding-right: 600px;
+
+}
+
+.wwwid input {
+    padding-bottom: 110px;
+    padding-right: 40px;
+}
